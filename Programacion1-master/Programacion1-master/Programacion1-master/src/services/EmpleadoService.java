@@ -138,4 +138,8 @@ public class EmpleadoService {
         }
         return null;
     }
+
+    private double calcularSueldo(int horas, double valorHora) {
+        return horas * valorHora;
+    }
 }
